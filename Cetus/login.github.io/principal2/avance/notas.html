@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio</title>
+    
+    <link rel="stylesheet" href="../hmtlcorrect/cuenta.css" type="text/css">
+</head>
+</div>
+<body id="fondo">
+    <div id="NOMBRE">
+        <div id="titulo">
+            <div id="empresa">NOTAS DE ALUMNOS</div>
+            <div id="lema">UNA VEZ INGRESADO NO SE PODRA HACER CAMBIOS</div>
+        </div>
+        <a href="profesor.html"><img src="../imagenes/fondo2.jpg" id="toretto"></a>
+    </div>
+    <div id="tabla">
+        <div id="presentacion">PRESENTACION</div>
+        <div id="calificacion">CALIFICACION</div>
+        <div id="lista">
+            <select name="alumnos" id="alumnos">
+                <option value="Alumnos">Alumnos</option>
+                <option value="Andrés Trozado">Andrés Trozado</option>
+                <option value="Aitor Tilla">Aitor Tilla</option>
+                <option value="Zoyla Vaca">Zoyla Vaca</option>
+                <option value="Ana Tomía">Ana Tomía</option>
+                <option value="Juanjo Sefina">Juanjo Sefina</option>
+                <option value="Helen Chufe">Helen Chufe</option>
+                <option value="Marcia Ana">Marcia Ana</option>
+                <option value="Lola Mento">Lola Mento</option>
+                <option value="Luz Rojas">Luz Rojas</option>
+                <option value="Paca Garte">Paca Garte</option>
+            </select>
+        </div>
+    </div>
+    <img src="../imagenes/pizarra.jpg" id="pizarra">
+    <form>
+        <table id="notas">
+            <tr>
+                <th colspan="2">INGRESE LAS NOTAS</th>
+            </tr>
+            <tr>
+                <th><input type="number" min="0" max="20" id="matematica" placeholder="matematica"></th>
+                <th><input type="number" min="0" max="20" id="comunicacion" placeholder="comunicacion"></th>
+            </tr>
+            <tr>
+                <th><input type="number" min="0" max="20" id="ciencias" placeholder="ciencias"></th>
+                <th><input type="number" min="0" max="20" id="cultura" placeholder="cultura general"></th>
+            </tr>
+        </table>
+    </form>
+    <div id="completo">
+    <img src="../imagenes/check.png" onclick="promediar()" id="promedio">
+    <img src="../imagenes/cuaderno.png" id="prom_final">
+    <a href="profesor.html"><img src="../imagenes/buscar.png" id="regresar"></a>
+    <a href="ampeko.html"><img src="../imagenes/x.png" id="home"></a>
+    </div>
+    <div id="mensaje">
+        <div>Nombre del alumno:</div><br>
+        <div id="nombre_alumno"></div><br>
+        <div id="indicador"></div><br>
+    </div>
+    
+    <script src="../java/javascript.js"></script>
+</body>
+</html>

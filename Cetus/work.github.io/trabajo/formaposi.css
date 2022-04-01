@@ -1,0 +1,47 @@
+#contenedor{
+    width: 900px;
+    height: 600px;
+    background-color: wheat;
+    margin: auto;
+    position: relative;
+}
+#bloque1{
+    border: solid 5px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: red;
+    z-index: 1;
+    top: 60px;
+    left: 150px;
+}
+#bloque2{
+    border: 2px;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 80px;
+}
+#bloque3{
+    border: 2px;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    z-index: 3;
+}
+#bloque4{
+    border: 2px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(81, 255, 0);
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    z-index: 4;
+}

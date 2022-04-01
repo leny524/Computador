@@ -1,0 +1,21 @@
+.categoria {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.categoria-imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categoria-img {
+  height: 150px;
+  width: 100px;
+  border-radius: 50%;
+}
+.btn-categoria {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+#contenedor{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    background-color: blue;
+    margin: auto;
+    position: relative;
+}
+#Cabecera{
+    width: 1200px;
+    height: 50px;
+    background-color: blue;
+    margin: auto;
+    position: absolute; 
+    right:50px;
+}
+#menu{
+ background-color: red;
+ position: absolute; 
+ width: 250px ;
+ height: 300px;
+ text-align: left;
+ left: 116px;
+ top: 58px;
+}
+#texto{
+background-color: yellow;
+position: absolute; 
+width: 950px;
+height: 500px;
+top:58px;
+right: 50px;
+}
+#base{
+position: absolute; 
+background-color: orangered;
+width: 1200px;
+height: 50px;
+bottom: 20px;
+right: 50px;
+}

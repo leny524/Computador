@@ -1,0 +1,15 @@
+#cuadrado1{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    background-color: aqua;
+    color: white;
+}
+#cuadrado2{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    background-color: blueviolet;
+}

@@ -1,0 +1,28 @@
+{
+  "articulos": [
+    {
+      "id":"cf4qaB9I",
+      "nombre":"lavadora",
+      "precio":"1540.00",
+      "marca":"LG",
+      "stock":"15"
+    },
+    {
+      "id":"_eKqz2mO",
+      "nombre":"Secadora",
+      "precio":"1300.00",
+      "marca":"Samsung",
+      "stock":"20"
+    }
+    {
+      "id":"PXh2Mnox",
+      "nombre":"Licuadora",
+      "precio":"500.00",
+      "marca":"Imaco",
+      "stock":"26"
+    }
+
+
+
+  ]
+}

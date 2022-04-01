@@ -1,0 +1,91 @@
+#contenedor{
+    width: 900px;
+}
+#borde1{
+    margin-bottom: 20px;
+    border-width: 5px;
+    border-left: solid black 1px;
+    border-top: solid red 10px;
+    border-right: solid  blue 25px;
+    border-bottom: solid green 8px;
+    width: 430px;
+    margin-left: 10px;
+}
+#borde2{
+    background-color:rgb(231, 175, 31);
+    border: double;
+    width: 950px;
+    margin-bottom: 10px;
+    border-right-style: ;
+    margin-left: 10px;
+    
+}
+#borde3{
+    border: red dashed; 
+    background-color: rgb(230, 115, 230);
+    border-right: solid black;
+    width: 950px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#borde4{
+    background-color: rgb(130, 215, 255);
+    border-left: double 10px;
+    border-bottom: double 10px;
+    margin-left: 10px;
+}
+#borde5{
+    background-color: rgb(250, 182, 244);
+    border-bottom: rgb(240, 58, 225) dotted;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 800px;
+}
+#a{
+    text-align: center ;
+    border-radius: 0px 0px 50px 0px;
+    background-color: black;
+    width: 300px;
+    float: left;
+    margin: 5px;
+}
+#b{
+    text-align: center ;
+    border-radius: 0px 0px 50px 0px;
+    background-color: black;
+    width: 300px;
+    float:right;
+    margin: 5px;
+}
+#c{
+    text-align: center ;
+    margin: 5px;
+    border-radius: 0px 0px 80px 0px;
+    background-color: black;
+    width: 300px;
+    float:right;
+}
+#d{
+    text-align: center ;
+    border-radius: 30px 60px 30px 60px;
+    background-color: black;
+    width: 300px;
+    float:left;
+    margin: 5px;
+}
+#e{
+    text-align: center ;
+    border-radius: 15px 15px 15px 15px;
+    background-color: black;
+    width: 300px;
+    float:right;
+    margin: 5px;
+}
+#f{
+    text-align: center ;
+    border-radius: 100px 100px 100px 100px;
+    background-color: black;
+    width: 300px;
+    margin: 5px;
+    float:right;
+}

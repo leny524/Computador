@@ -1,0 +1,75 @@
+#color{
+    background:radial-gradient(blue, red, yellow, black)
+}
+#fondo_curso{
+    position: relative;
+    background-image:url("images/fondo_cursos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#disponibles{
+    position: relative;
+    width: 100%;
+    height: 57px;
+}
+#horarios_disponibles{    
+    position: absolute;
+    background: radial-gradient(yellow, red);
+    width: 48%;
+    right: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+#cursos_disponibles{
+    position: absolute;
+    background: radial-gradient(yellow, red);
+    width: 48%;
+    text-align: center;
+    font-size: 50px;
+}
+#cursos{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    height: 500px;
+    width: 500px;
+}
+#ingles{
+    position: relative;
+    width: 200px;
+}
+#gastronomia{
+    position: relative;
+    width: 200px;
+    bottom: 20px;
+    left: 86px;
+}
+#computacion{
+    position: relative;
+    width: 200px;
+}
+#ajedrez{
+    position: relative;
+    bottom: 30px;
+    width: 200px;
+    left: 86px;
+}
+
+#hora{
+    position: absolute;
+    right: 20%;
+    text-align: center;
+    top: 40px;
+}
+#regresar{
+    position: absolute;
+    width: 50px;
+    bottom: 40px;
+    right: 100px;
+}
+#home{
+    position: absolute;
+    width: 50px;
+    bottom: 50px;
+    right: 200px;
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Mifuente;
+    src: url('fonts/LemonFriday.ttf');
+}
+#parrafo1{
+    font-family:arial,'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+#parrafo2{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+h1{
+    font-family: Mifuente, arial;
+    \\font-weight: normal;
+    \\font-size: 3em;
+}

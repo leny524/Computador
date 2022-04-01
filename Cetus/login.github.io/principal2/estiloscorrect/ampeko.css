@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "toreto";
+    src: url("fuente/Market_Deco.ttf");
+  }
+#empresa{
+    position:absolute;
+    top: 10px;
+    left: 150px;
+    font-size: 300%;
+    font-family: toreto;
+    text-shadow: 4px 4px 4px silver;
+    border: solid black;
+    border-radius: 20px;
+}
+#lema{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-family: toreto;
+    font-size: 130%;
+}
+#toretto{
+    position: absolute;
+    width: 200px;
+}
+#titulo{
+    position: relative;
+    top: 50px;
+    left: 15px;
+    box-shadow: 0px 0px black;
+}
+#NOMBRE{
+    position: relative;
+}
+#tabla{
+    position: absolute;
+    top: 270px;
+    border: solid black;
+    box-shadow: 0px 0px 20px black;
+    width: 80%;
+    height: 30px;
+    left: 10%;
+}
+#presentacion{
+    position: absolute;
+    left: 50px;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px black;
+}
+#calificacion{
+    position: absolute;
+    right: 50px;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px black;
+}
+#fondo{
+    background-image: url("images/fondo_profe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pizarra{
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    height: 52%;
+    bottom: 0px;
+    left: 10%;
+}
+#regresar{
+    position: absolute;
+    width: 50px;
+    bottom: 20px;
+    right: 100px;
+}
+#home{
+    position: absolute;
+    width: 50px;
+    bottom: 25px;
+    right: 200px;
+}
